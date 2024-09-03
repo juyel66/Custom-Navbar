@@ -6,17 +6,17 @@ const Navbar = () => {
         { name: 'Home', link: '/' },
         { name: 'Service', link: '/' },
         { name: 'about', link: '/' },
-        { name: 'Contact', link: '/' },
+        { name: 'Contact', link: '/' }, 
         { name: 'Blogs', link: '/' }
     ]
 
-    const [open, setOpen] = useState(false);
+    const [open, setOpen] = useState(false);    
     return (
         <>
 
           <div className="">
-          <div className=" shadow-md w-full fixed top-0 left-0 z-50 ">
-                <div className="md:flex items-center justify-between bg-white md:px-10 px-7 py-4 ">
+          <div className=" shadow-md w-full   fixed top-0 left-0 z-50 ">
+                <div className="md:flex items-center justify-between bg-blue-600 md:px-10 px-7 py-4 ">
                     <div className="text-5xl cursor-pointer  "> <span className="text-3xl text-indigo-600"><ion-icon name="logo-ionic"></ion-icon></span> Design</div>
 
                     <div onClick={() => setOpen(!open)} className="text-3xl top-6 absolute right-8 cursor-pointer md:hidden">
@@ -48,7 +48,7 @@ const Navbar = () => {
             <div className="bg-indigo-600 w-full ">
                 <div className="text-black">
 
-
+{/* .. */}
 
                 </div>
 
